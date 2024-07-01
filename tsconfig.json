@@ -1,0 +1,21 @@
+{
+    "extends": "@react-native/typescript-config/tsconfig.json",
+    "useDefineForClassFields": true, // for mobx
+    "compilerOptions": {
+      "useDefineForClassFields": true,
+      "experimentalDecorators": true, // for mobx
+      "strict": true,
+      // Path alias config
+      "baseUrl": ".",
+      "paths": {
+        "src/*": [
+          "src/*"
+        ]
+      },
+      "jsx": "react",
+      "allowSyntheticDefaultImports": true
+    },
+    "exclude": [
+      "node_modules"
+    ]
+  }
