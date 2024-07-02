@@ -1,12 +1,12 @@
 module.exports = {
-    primary: '#365486',
+    primary: '#F4B5A4', //salmon
     onPrimary: '#FFFFFF',
-    primaryContainer: '#CDEF84',
-    onPrimaryContainer: '#141F00',
-    secondary: '#5A6147',
-    onSecondary: '#5A6147',
+    primaryContainer: '#CC7861', //Terracotta
+    onPrimaryContainer: '#CC7861',
+    secondary: '#DCBEB6', //Brown Rosy
+    onSecondary: '#FAF0E6', //Beige
     secondaryContainer: '#DEE6C5',
-    onSecondaryContainer: '#171E09',
+    onSecondaryContainer: '#4B4544', //Orange Dark
     tertiary: '#396660',
     onTertiary: '#FFFFFF',
     tertiaryContainer: '#bcece4',
@@ -18,7 +18,7 @@ module.exports = {
     background: "#fefcf4",
     onBackground: "#1b1c17",
     surface: "#EEF5FF",
-    onSurface: "#1b1c17",
+    onSurface: "#363130",
     surfaceVariant: "#e2e4d4",
     onSurfaceVariant: "#45483c",
     outline: "#76786b",
